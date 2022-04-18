@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "module_amthanh",
+			"path": "..\\..\\IoT\\module_amthanh"
+		}
+	],
+	"settings": {}
+}

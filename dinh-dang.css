@@ -1,0 +1,9 @@
+#my_border {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 10px solid green;
+    border-right-color: blue;
+    border-left-color: blue;
+    border-radius: 100px;
+}

@@ -1,0 +1,78 @@
+body{
+    margin: 30px;
+}
+
+
+#vidu_transition{
+    width: 100px;
+    height: 100px;
+    background-color: #F90;
+    transition: 1s;
+}
+
+#vidu_transition:hover{
+    width: 200px;
+    height: 150px;
+}
+
+/*transform -> translate */
+#vidu_transform_translate{
+    width: 100px;
+    height: 100px;
+    background-color: #093;
+    transition: 1s;
+}
+
+#vidu_transform_translate:hover{
+    transform: translate(100px, 0px);
+}
+
+/*transform -> rotate */
+#vidu_transform_rotate{
+    width: 100px;
+    height: 100px;
+    background-color: #C00;
+    transition: 1s;
+}
+
+#vidu_transform_rotate:hover{
+    transform: rotate(180deg);
+}
+
+
+/*transform -> scale */
+#vidu_transform_scale{
+    width: 100px;
+    height: 100px;
+    background-color: #F09;
+    transition: 2s;
+}
+
+#vidu_transform_scale:hover{
+    transform: scale(2,3);
+}
+
+
+/*transform -> skew */
+#vidu_transform_skew{
+    width: 100px;
+    height: 100px;
+    background-color: #339;
+    transition: 2s;
+}
+
+#vidu_transform_skew:hover{
+    transform: skew(45deg,0deg);
+}
+
+/*transform -> rotate_3D */
+#vidu_transform_rotate_3D{
+    width: 100px;
+    height: 100px;
+    background-color: #90C;
+    transition: 2s;
+}
+
+#vidu_transform_rotate_3D:hover{
+    transform: rotateX(45deg) rotateY(30deg) rotateZ(30deg);
+}
